@@ -6,6 +6,7 @@
         <h6 class="m-0 font-weight-bold text-primary">Data Mahasiswa</h6>
     </div>
     <div class="card-body">
+        <a href="{{ route ('barang.tambah')}}" class="btn btn-primary mb-3">Tambah Data</a>
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
@@ -21,7 +22,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @php($no = 0)
+                    @php($no = 1)
                     @foreach ($barang as $row)
                         <tr>
                             <th>{{ $no++ }}</th>
@@ -32,7 +33,7 @@
                             <td>{{ $row->Kejuruan }}</td>
                             <td>
                                 <a href="{{ route('barang.edit', $row->id) }}" class="btn btn-warning">Edit</a>
-                                <a href="{{ route('barang.hapus', $row->id) }}" class="btn btn-warning">Hapus</a>
+                                <a href="{{ route('barang.hapus', $row->id) }}" class="btn btn-danger">Hapus</a>
                             </td>
                         </tr>
                     @endforeach
