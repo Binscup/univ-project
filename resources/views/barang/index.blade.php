@@ -32,8 +32,13 @@
                             <td>{{ $row->progam_studi }}</td>
                             <td>{{ $row->Kejuruan }}</td>
                             <td>
-                                <a href="{{ route('barang.edit', $row->id) }}" class="btn btn-warning">Edit</a>
-                                <a href="{{ route('barang.hapus', $row->id) }}" class="btn btn-danger">Hapus</a>
+                               <a href="{{ route('barang.edit', $row->id) }}" class="btn btn-warning btn-circle">
+                                        <i class="fa fa-folder"></i>
+                                    </a>
+
+                                <a href="{{ route('barang.hapus', $row->id) }}" class="btn btn-danger btn-circle">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
                             </td>
                         </tr>
                     @endforeach

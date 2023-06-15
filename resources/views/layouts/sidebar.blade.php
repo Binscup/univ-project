@@ -1,7 +1,7 @@
   <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard">
 
           <div class="sidebar-brand-text mx-3">Bintang<sup>Apps</sup></div>
       </a>
@@ -19,6 +19,11 @@
           <a class="nav-link" href="{{ route('barang') }}">
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>Data Mahasiswa</span></a>
+      </li>
+      <li class="nav-item ">
+          <a class="nav-link" href="">
+              <i class="fas fa-fw fa-tachometer-alt"></i>
+              <span>Data Rekab Mahasiswa</span></a>
       </li>
 
 
