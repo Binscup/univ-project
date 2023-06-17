@@ -176,12 +176,12 @@
                 <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
             </div>
             <div class="card-body">
-                <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+                <h4 class="small font-weight-bold">Students development <span class="float-right">20%</span></h4>
                 <div class="progress mb-4">
                     <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20"
                         aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+                <h4 class="small font-weight-bold">Yoth of ASEAN <span class="float-right">40%</span></h4>
                 <div class="progress mb-4">
                     <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40"
                         aria-valuemin="0" aria-valuemax="100"></div>
@@ -279,20 +279,15 @@
         <!-- Illustrations -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Information</h6>
             </div>
             <div class="card-body">
                 <div class="text-center">
                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                         src="img/undraw_posting_photo.svg" alt="...">
                 </div>
-                <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow"
-                        href="https://undraw.co/">unDraw</a>, a
-                    constantly updated collection of beautiful svg images that you can use
-                    completely free and without attribution!</p>
-                <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations
-                    on
-                    unDraw &rarr;</a>
+                <p>Students can also learn about mobile app development, graphic design, and UI/UX design. Graduates from this campus are equipped to work in various IT sectors like software development, data science, and cybersecurity.
+                </p>
             </div>
         </div>
 

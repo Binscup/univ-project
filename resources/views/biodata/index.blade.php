@@ -3,10 +3,10 @@
 @section('title', 'biodata Mahasiswa')
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Data Mahasiswa</h6>
+        <h6 class="m-0 font-weight-bold text-primary">Biodata Mahasiswa</h6>
     </div>
     <div class="card-body">
-        <a href="{{ route ('barang.tambah')}}" class="btn btn-primary mb-3">Tambah Data</a>
+        <a href="{{ route ('biodata.tambah')}}" class="btn btn-primary mb-3">Tambah Data</a>
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>

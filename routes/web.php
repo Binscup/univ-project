@@ -5,7 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\biodataController;
 use App\Http\Controllers\mahasiswaController;
-
+use App\View\Components\HomeComponent;
 
 Route::controller(AuthController::class)->group(function () {
     Route::get('register', 'register')->name('register');
@@ -37,3 +37,4 @@ Route::controller(biodataController::class)->prefix('biodata')->group(function (
     Route::post('edit/{id}', 'update')->name('biodata.tambah.update');
     Route::get('hapus/{id}', 'hapus')->name('biodata.hapus');
 });
+Route::get('/home', HomeComponent::class)->name('home');

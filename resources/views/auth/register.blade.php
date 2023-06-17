@@ -63,6 +63,7 @@
                   </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-user btn-block">Register Account</button>
+                <button type="submit" class="btn btn-warning btn-user btn-block">Back to guest</button>
               </form>
               <hr>
               <div class="text-center">
