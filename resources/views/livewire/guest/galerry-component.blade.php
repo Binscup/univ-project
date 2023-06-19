@@ -24,12 +24,14 @@
                       <div class="img-responsive img-responsive-3x1 rounded-3 border" style="background-image: url({{asset('assets/static/photos/group-of-people-brainstorming-and-taking-notes-2.jpg')}})"></div>
                     </a>
                   </div>
-                  <div class="col-6">
-                    <a data-fslightbox="gallery" href="{{asset('assets/static/photos/blue-sofa-with-pillows-in-a-designer-living-room-interior.jpg')}}">
-                      <!-- Photo -->
-                      <div class="img-responsive img-responsive-1x1 rounded-3 border" style="background-image: url({{asset('asssets/static/photos/blue-sofa-with-pillows-in-a-designer-living-room-interior.jpg')}})"></div>
-                    </a>
-                  </div>
+                <div class="col-6">
+                    <div class="row g-2 g-md-3">
+                            <a data-fslightbox="gallery" href="{{asset('assets/static/photos/blue-sofa-with-pillows-in-a-designer-living-room-interior.jpg')}}">
+                            <!-- Photo -->
+                            <div class="img-responsive img-responsive-1x1 rounded-3 border" style="background-image: url({{asset('asssets/static/photos/blue-sofa-with-pillows-in-a-designer-living-room-interior.jpg')}})"></div>
+                            </a>
+                    </div>
+                </div>
                   <div class="col-6">
                     <div class="row g-2 g-md-3">
                       <div class="col-6">
