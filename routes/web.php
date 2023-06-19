@@ -4,8 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\biodataController;
+use App\Http\Controllers\GuestAuthController;
 use App\Http\Controllers\mahasiswaController;
-use App\View\Components\HomeComponent;
+use App\Http\Livewire\Guest\AboutComponent;
+use App\Http\Livewire\Guest\GalerryComponent;
+use App\Http\Livewire\Guest\HomeComponent;
 
 Route::controller(AuthController::class)->group(function () {
     Route::get('register', 'register')->name('register');
@@ -37,4 +40,15 @@ Route::controller(biodataController::class)->prefix('biodata')->group(function (
     Route::post('edit/{id}', 'update')->name('biodata.tambah.update');
     Route::get('hapus/{id}', 'hapus')->name('biodata.hapus');
 });
-Route::get('/home', HomeComponent::class)->name('home');
+
+Route::controller(AuthController::class)->prefix("guest")->group(function () {
+    Route::get('register', 'register')->name('register');
+    Route::post('register', 'registerSimpan')->name('register.simpan');
+    Route::get('/', 'login')->name('login');
+    Route::post('login', 'loginAksi')->name('login.aksi');
+});
+
+
+Route::get("guest/Home", HomeComponent::class);
+Route::get("guest/About", AboutComponent::class);
+Route::get("guest/Galerry", GalerryComponent::class);

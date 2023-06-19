@@ -14,6 +14,8 @@
           <a class="nav-link" href="{{ route('dashboard') }}">
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>Dashboard</span></a>
+              <hr class="sidebar-divider my-0">
+
       </li>
       <li class="nav-item ">
           <a class="nav-link" href="{{ route('barang') }}">
@@ -25,6 +27,7 @@
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>Biodata Mahasiswa</span></a>
       </li>
+
 
 
 

@@ -174,12 +174,8 @@
                             style="background-image: url({{ asset('assets/static/avatars/000f.jpg') }})"></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                        <a href="#" class="dropdown-item">Status</a>
-                        <a href="./profile.html" class="dropdown-item">Profile</a>
-                        <a href="#" class="dropdown-item">Feedback</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="./settings.html" class="dropdown-item">Settings</a>
-                        <a href="./sign-in.html" class="dropdown-item">Logout</a>
+                        <a href="{{route ('login')}}" class="dropdown-item">Login</a>
+
                     </div>
                 </div>
             </div>
@@ -239,7 +235,7 @@
     <div class="collapse navbar-collapse" id="navbar-menu">
         <div class="navbar">
             <div class="container-xl">
-                @include('template.inc.menu')
+                @include("guest.template.menu")
                 <form action="./" method="get" autocomplete="off" novalidate="">
                     <div class="input-icon">
                         <span class="input-icon-addon">
